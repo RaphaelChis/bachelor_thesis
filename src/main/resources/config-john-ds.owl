@@ -1,0 +1,909 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/rapha/ontologies/2023/2/config-john-ds"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/rapha/ontologies/2023/2/config-john-ds">
+    <Prefix name="" IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/config-john-ds"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.semanticweb.org/rapha/ontologies/2022/10/elearning-john-ds</Import>
+    <Import>http://www.semanticweb.org/rapha/ontologies/2023/2/planning</Import>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#domainDefinition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#goal-john"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#initialState-john"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptArray"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptList"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptTree"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveTakeCourse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-JAchieveTakeCourseDS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-dummyStudyConceptArray"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-dummyStudyConceptList"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-dummyStudyConceptTree"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-studyConceptArray"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-studyConceptList"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-studyConceptTree"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-takeCourse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-doNothing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-finishCourse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConcept"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConceptArray"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConceptList"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConceptTree"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-startCourse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#parameter-concept"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#parameter-course"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#parameter-learner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-JTakesDS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudied"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedArray"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedList"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedTree"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-notConceptStudied"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-notConceptStudiedArray"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-notConceptStudiedList"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-notConceptStudiedTree"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-takes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#problemDefinition-john"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#DomainDefinition"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#domainDefinition"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Goal"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#goal-john"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#InitialState"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#initialState-john"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptArray"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptList"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptTree"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveTakeCourse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-JAchieveTakeCourseDS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-dummyStudyConceptArray"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-dummyStudyConceptList"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-dummyStudyConceptTree"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-studyConceptArray"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-studyConceptList"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-studyConceptTree"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-takeCourse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-doNothing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-finishCourse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConcept"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConceptArray"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConceptList"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConceptTree"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-startCourse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Parameter"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#parameter-concept"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Parameter"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#parameter-course"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Parameter"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#parameter-learner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-JTakesDS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudied"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedArray"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedList"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedTree"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-notConceptStudied"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-notConceptStudiedArray"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-notConceptStudiedList"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-notConceptStudiedTree"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-takes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#ProblemDefinition"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#problemDefinition-john"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasMethod"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#domainDefinition"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptArray"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasMethod"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#domainDefinition"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptList"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasMethod"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#domainDefinition"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptTree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasMethod"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#domainDefinition"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveTakeCourse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasOperator"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#domainDefinition"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-doNothing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasOperator"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#domainDefinition"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-finishCourse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasOperator"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#domainDefinition"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConcept"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasOperator"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#domainDefinition"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-startCourse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#consistsOfMethod"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#goal-john"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-JAchieveTakeCourseDS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPredicate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#initialState-john"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-JTakesDS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptArray"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-dummyStudyConceptArray"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptArray"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-studyConceptArray"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasParameter"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptArray"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#parameter-learner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptList"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-dummyStudyConceptList"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptList"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-studyConceptList"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasParameter"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptList"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#parameter-learner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptTree"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-dummyStudyConceptTree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptTree"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-studyConceptTree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasParameter"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptTree"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#parameter-learner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveTakeCourse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-takeCourse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasParameter"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveTakeCourse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#parameter-course"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasParameter"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveTakeCourse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#parameter-learner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasObject"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-JAchieveTakeCourseDS"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2022/10/elearning-john-ds#course-dataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasObject"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-JAchieveTakeCourseDS"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2022/10/elearning-john-ds#learner-john"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meSpecializationOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-JAchieveTakeCourseDS"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveTakeCourse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-dummyStudyConceptArray"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-doNothing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-dummyStudyConceptArray"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedArray"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-dummyStudyConceptList"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-doNothing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-dummyStudyConceptList"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedList"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-dummyStudyConceptTree"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-doNothing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-dummyStudyConceptTree"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedTree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-studyConceptArray"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConceptArray"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-studyConceptArray"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-notConceptStudiedArray"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-studyConceptList"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptArray"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-studyConceptList"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConceptList"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-studyConceptList"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-notConceptStudiedList"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-studyConceptTree"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptArray"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-studyConceptTree"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptList"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-studyConceptTree"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConceptTree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-studyConceptTree"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-notConceptStudiedTree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-takeCourse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptArray"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-takeCourse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptList"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-takeCourse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptTree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-takeCourse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-finishCourse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-takeCourse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-takes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasPrecondition"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-finishCourse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedArray"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasPrecondition"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-finishCourse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedList"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasPrecondition"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-finishCourse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedTree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#addsPredicate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConcept"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudied"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasParameter"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConcept"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#parameter-concept"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasPrecondition"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConcept"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-notConceptStudied"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasObject"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConceptArray"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2022/10/elearning-john-ds#concept-array"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opSpecializationOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConceptArray"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConcept"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasObject"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConceptList"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2022/10/elearning-john-ds#concept-list"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opSpecializationOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConceptList"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConcept"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasObject"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConceptTree"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2022/10/elearning-john-ds#concept-tree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opSpecializationOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConceptTree"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConcept"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasObject"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-JTakesDS"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2022/10/elearning-john-ds#course-dataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasObject"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-JTakesDS"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2022/10/elearning-john-ds#learner-john"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prSpecializationOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-JTakesDS"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-takes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasParameter"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudied"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#parameter-concept"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasObject"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedArray"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2022/10/elearning-john-ds#concept-array"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prSpecializationOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedArray"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudied"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasObject"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedList"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2022/10/elearning-john-ds#concept-list"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prSpecializationOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedList"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudied"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasObject"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedTree"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2022/10/elearning-john-ds#concept-tree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prSpecializationOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedTree"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudied"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#negativeOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-notConceptStudied"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudied"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#negativeOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-notConceptStudiedArray"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedArray"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#negativeOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-notConceptStudiedList"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedList"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#negativeOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-notConceptStudiedTree"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedTree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasParameter"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-takes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#parameter-course"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasParameter"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-takes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#parameter-learner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasDomain"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#problemDefinition-john"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#domainDefinition"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasGoal"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#problemDefinition-john"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#goal-john"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasInitialState"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#problemDefinition-john"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#initialState-john"/>
+    </ObjectPropertyAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#domainDefinition</IRI>
+        <Literal>domainDefinition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#goal-john</IRI>
+        <Literal>goal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#initialState-john</IRI>
+        <Literal>initialState</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptArray</IRI>
+        <Literal>Parameters: [learner]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptArray</IRI>
+        <Literal>achieveStudyConceptArray</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptList</IRI>
+        <Literal>Parameters: [learner]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptList</IRI>
+        <Literal>achieveStudyConceptList</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptTree</IRI>
+        <Literal>Parameters: [learner]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveStudyConceptTree</IRI>
+        <Literal>achieveStudyConceptTree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveTakeCourse</IRI>
+        <Literal>Parameters: [learner;course]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-AchieveTakeCourse</IRI>
+        <Literal>achieveTakeCourse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-JAchieveTakeCourseDS</IRI>
+        <Literal>Objects: [john;dataStructure]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#method-JAchieveTakeCourseDS</IRI>
+        <Literal>jAchieveTakeCourseDS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-dummyStudyConceptArray</IRI>
+        <Literal>dummyStudyConceptArray</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-dummyStudyConceptList</IRI>
+        <Literal>dummyStudyConceptList</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-dummyStudyConceptTree</IRI>
+        <Literal>dummyStudyConceptTree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-studyConceptArray</IRI>
+        <Literal>studyConceptArray</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-studyConceptList</IRI>
+        <Literal>studyConceptList</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-studyConceptTree</IRI>
+        <Literal>studyConceptTree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#methodFlow-takeCourse</IRI>
+        <Literal>takeCourse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-doNothing</IRI>
+        <Literal>doNothing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-finishCourse</IRI>
+        <Literal>finishCourse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConcept</IRI>
+        <Literal>Parameters: [concept]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConcept</IRI>
+        <Literal>learnConcept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConceptArray</IRI>
+        <Literal>Objects: [array]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConceptArray</IRI>
+        <Literal>learnConceptArray</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConceptList</IRI>
+        <Literal>Objects: [list]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConceptList</IRI>
+        <Literal>learnConceptList</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConceptTree</IRI>
+        <Literal>Objects: [tree]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-learnConceptTree</IRI>
+        <Literal>learnConceptTree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#operator-startCourse</IRI>
+        <Literal>startCourse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#parameter-concept</IRI>
+        <Literal>concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#parameter-course</IRI>
+        <Literal>course</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#parameter-learner</IRI>
+        <Literal>learner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-JTakesDS</IRI>
+        <Literal>Objects: [john;dataStructure]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-JTakesDS</IRI>
+        <Literal>jTakesDS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudied</IRI>
+        <Literal>Parameters: [concept]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudied</IRI>
+        <Literal>conceptStudied</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedArray</IRI>
+        <Literal>Objects: [array]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedArray</IRI>
+        <Literal>conceptStudiedArray</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedList</IRI>
+        <Literal>Objects: [list]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedList</IRI>
+        <Literal>conceptStudiedList</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedTree</IRI>
+        <Literal>Objects: [tree]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-conceptStudiedTree</IRI>
+        <Literal>conceptStudiedTree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-notConceptStudied</IRI>
+        <Literal>notConceptStudied</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-notConceptStudiedArray</IRI>
+        <Literal>notConceptStudiedArray</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-notConceptStudiedList</IRI>
+        <Literal>notConceptStudiedList</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-notConceptStudiedTree</IRI>
+        <Literal>notConceptStudiedTree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-takes</IRI>
+        <Literal>Parameters: [learner;course]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#predicate-takes</IRI>
+        <Literal>takes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-54#problemDefinition-john</IRI>
+        <Literal>problemDefinition</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

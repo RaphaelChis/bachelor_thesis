@@ -1,0 +1,2599 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/rapha/ontologies/2023/4/config-leticia-ai"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/rapha/ontologies/2023/4/config-leticia-ai">
+    <Prefix name="" IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/config-leticia-ai"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.semanticweb.org/rapha/ontologies/2023/2/planning</Import>
+    <Import>http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai</Import>
+    <Declaration>
+        <NamedIndividual IRI="#domainDefinition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#goal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#initialState"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#method-achieveStudyConceptAdvancedPlanning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#method-achieveStudyConceptBlindSearch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#method-achieveStudyConceptGameTheory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#method-achieveStudyConceptHeuristics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#method-achieveStudyConceptLogic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#method-achieveStudyConceptLogicProgramming"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#method-achieveStudyConceptPrinciples"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#method-achieveStudyConceptProbRepr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#method-achieveStudyConceptProblemSolving"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#method-achieveStudyConceptRepresentations"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#method-achieveStudyConceptRules"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#method-achieveStudyConceptTheoryOfPlanning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#method-achieveStudyConceptUncert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#method-achieveTakeCourse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#method-letAchieveTakeCourseAI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptAdvancedPlanning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptBlindSearch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptGameTheory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptHeuristics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptLogic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptLogicProgramming"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptPrinciples"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptProbRepr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptProblemSolving"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptRepresentations"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptRules"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptTheoryOfPlanning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptUncert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-studyConceptAdvancedPlanning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-studyConceptBlindSearch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-studyConceptGameTheory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-studyConceptHeuristics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-studyConceptLogic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-studyConceptLogicProgramming"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-studyConceptPrinciples"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-studyConceptProbRepr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-studyConceptProblemSolving"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-studyConceptRepresentations"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-studyConceptRules"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-studyConceptTheoryOfPlanning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-studyConceptUncert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodFlow-takeCourse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#operator-doNothing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#operator-finishCourse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#operator-learnConcept"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#operator-learnConceptAdvancedPlanning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#operator-learnConceptBlindSearch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#operator-learnConceptGameTheory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#operator-learnConceptHeuristics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#operator-learnConceptLogic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#operator-learnConceptLogicProgramming"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#operator-learnConceptPrinciples"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#operator-learnConceptProbRepr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#operator-learnConceptProblemSolving"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#operator-learnConceptRepresentations"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#operator-learnConceptRules"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#operator-learnConceptTheoryOfPlanning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#operator-learnConceptUncert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#operator-startCourse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#parameter-concept"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#parameter-course"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#parameter-learner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-conceptStudied"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-conceptStudiedAdvancedPlanning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-conceptStudiedBlindSearch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-conceptStudiedGameTheory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-conceptStudiedHeuristics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-conceptStudiedLogic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-conceptStudiedLogicProgramming"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-conceptStudiedPrinciples"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-conceptStudiedProbRepr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-conceptStudiedProblemSolving"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-conceptStudiedRepresentations"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-conceptStudiedRules"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-conceptStudiedTheoryOfPlanning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-conceptStudiedUncert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-letTakesAI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-notConceptStudied"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-notConceptStudiedAdvancedPlanning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-notConceptStudiedBlindSearch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-notConceptStudiedGameTheory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-notConceptStudiedHeuristics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-notConceptStudiedLogic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-notConceptStudiedLogicProgramming"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-notConceptStudiedPrinciples"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-notConceptStudiedProbRepr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-notConceptStudiedProblemSolving"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-notConceptStudiedRepresentations"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-notConceptStudiedRules"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-notConceptStudiedTheoryOfPlanning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-notConceptStudiedUncert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predicate-takes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#problemDefinition"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#DomainDefinition"/>
+        <NamedIndividual IRI="#domainDefinition"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Goal"/>
+        <NamedIndividual IRI="#goal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#InitialState"/>
+        <NamedIndividual IRI="#initialState"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptAdvancedPlanning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptBlindSearch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptGameTheory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptHeuristics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptLogic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptLogicProgramming"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptPrinciples"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptProbRepr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptProblemSolving"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptRepresentations"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptRules"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptTheoryOfPlanning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptUncert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+        <NamedIndividual IRI="#method-achieveTakeCourse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+        <NamedIndividual IRI="#method-letAchieveTakeCourseAI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptAdvancedPlanning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptBlindSearch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptGameTheory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptHeuristics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptLogic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptLogicProgramming"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptPrinciples"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptProbRepr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptProblemSolving"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptRepresentations"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptRules"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptTheoryOfPlanning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptUncert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptAdvancedPlanning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptBlindSearch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptGameTheory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptHeuristics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptLogic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptLogicProgramming"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptPrinciples"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptProbRepr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptProblemSolving"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptRepresentations"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptRules"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptTheoryOfPlanning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptUncert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <NamedIndividual IRI="#methodFlow-takeCourse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+        <NamedIndividual IRI="#operator-doNothing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+        <NamedIndividual IRI="#operator-finishCourse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+        <NamedIndividual IRI="#operator-learnConcept"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+        <NamedIndividual IRI="#operator-learnConceptAdvancedPlanning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+        <NamedIndividual IRI="#operator-learnConceptBlindSearch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+        <NamedIndividual IRI="#operator-learnConceptGameTheory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+        <NamedIndividual IRI="#operator-learnConceptHeuristics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+        <NamedIndividual IRI="#operator-learnConceptLogic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+        <NamedIndividual IRI="#operator-learnConceptLogicProgramming"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+        <NamedIndividual IRI="#operator-learnConceptPrinciples"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+        <NamedIndividual IRI="#operator-learnConceptProbRepr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+        <NamedIndividual IRI="#operator-learnConceptProblemSolving"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+        <NamedIndividual IRI="#operator-learnConceptRepresentations"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+        <NamedIndividual IRI="#operator-learnConceptRules"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+        <NamedIndividual IRI="#operator-learnConceptTheoryOfPlanning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+        <NamedIndividual IRI="#operator-learnConceptUncert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+        <NamedIndividual IRI="#operator-startCourse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Parameter"/>
+        <NamedIndividual IRI="#parameter-concept"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Parameter"/>
+        <NamedIndividual IRI="#parameter-course"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Parameter"/>
+        <NamedIndividual IRI="#parameter-learner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-conceptStudied"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedAdvancedPlanning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedBlindSearch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedGameTheory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedHeuristics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedLogic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedLogicProgramming"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedPrinciples"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedProbRepr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedProblemSolving"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedRepresentations"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedRules"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedTheoryOfPlanning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedUncert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-letTakesAI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-notConceptStudied"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedAdvancedPlanning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedBlindSearch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedGameTheory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedHeuristics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedLogic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedLogicProgramming"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedPrinciples"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedProbRepr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedProblemSolving"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedRepresentations"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedRules"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedTheoryOfPlanning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedUncert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <NamedIndividual IRI="#predicate-takes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#ProblemDefinition"/>
+        <NamedIndividual IRI="#problemDefinition"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasMethod"/>
+        <NamedIndividual IRI="#domainDefinition"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptAdvancedPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasMethod"/>
+        <NamedIndividual IRI="#domainDefinition"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptBlindSearch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasMethod"/>
+        <NamedIndividual IRI="#domainDefinition"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptGameTheory"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasMethod"/>
+        <NamedIndividual IRI="#domainDefinition"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptHeuristics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasMethod"/>
+        <NamedIndividual IRI="#domainDefinition"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptLogic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasMethod"/>
+        <NamedIndividual IRI="#domainDefinition"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptLogicProgramming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasMethod"/>
+        <NamedIndividual IRI="#domainDefinition"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptPrinciples"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasMethod"/>
+        <NamedIndividual IRI="#domainDefinition"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptProbRepr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasMethod"/>
+        <NamedIndividual IRI="#domainDefinition"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptProblemSolving"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasMethod"/>
+        <NamedIndividual IRI="#domainDefinition"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptRepresentations"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasMethod"/>
+        <NamedIndividual IRI="#domainDefinition"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptRules"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasMethod"/>
+        <NamedIndividual IRI="#domainDefinition"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptTheoryOfPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasMethod"/>
+        <NamedIndividual IRI="#domainDefinition"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptUncert"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasMethod"/>
+        <NamedIndividual IRI="#domainDefinition"/>
+        <NamedIndividual IRI="#method-achieveTakeCourse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasOperator"/>
+        <NamedIndividual IRI="#domainDefinition"/>
+        <NamedIndividual IRI="#operator-doNothing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasOperator"/>
+        <NamedIndividual IRI="#domainDefinition"/>
+        <NamedIndividual IRI="#operator-finishCourse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasOperator"/>
+        <NamedIndividual IRI="#domainDefinition"/>
+        <NamedIndividual IRI="#operator-learnConcept"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasOperator"/>
+        <NamedIndividual IRI="#domainDefinition"/>
+        <NamedIndividual IRI="#operator-startCourse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#consistsOfMethod"/>
+        <NamedIndividual IRI="#goal"/>
+        <NamedIndividual IRI="#method-letAchieveTakeCourseAI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPredicate"/>
+        <NamedIndividual IRI="#initialState"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedPrinciples"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPredicate"/>
+        <NamedIndividual IRI="#initialState"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedProblemSolving"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPredicate"/>
+        <NamedIndividual IRI="#initialState"/>
+        <NamedIndividual IRI="#predicate-letTakesAI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptAdvancedPlanning"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptAdvancedPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptAdvancedPlanning"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptAdvancedPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasParameter"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptAdvancedPlanning"/>
+        <NamedIndividual IRI="#parameter-learner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptBlindSearch"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptBlindSearch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptBlindSearch"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptBlindSearch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasParameter"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptBlindSearch"/>
+        <NamedIndividual IRI="#parameter-learner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptGameTheory"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptGameTheory"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptGameTheory"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptGameTheory"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasParameter"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptGameTheory"/>
+        <NamedIndividual IRI="#parameter-learner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptHeuristics"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptHeuristics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptHeuristics"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptHeuristics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasParameter"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptHeuristics"/>
+        <NamedIndividual IRI="#parameter-learner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptLogic"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptLogic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptLogic"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptLogic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasParameter"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptLogic"/>
+        <NamedIndividual IRI="#parameter-learner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptLogicProgramming"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptLogicProgramming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptLogicProgramming"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptLogicProgramming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasParameter"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptLogicProgramming"/>
+        <NamedIndividual IRI="#parameter-learner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptPrinciples"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptPrinciples"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptPrinciples"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptPrinciples"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasParameter"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptPrinciples"/>
+        <NamedIndividual IRI="#parameter-learner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptProbRepr"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptProbRepr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptProbRepr"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptProbRepr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasParameter"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptProbRepr"/>
+        <NamedIndividual IRI="#parameter-learner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptProblemSolving"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptProblemSolving"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptProblemSolving"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptProblemSolving"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasParameter"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptProblemSolving"/>
+        <NamedIndividual IRI="#parameter-learner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptRepresentations"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptRepresentations"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptRepresentations"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptRepresentations"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasParameter"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptRepresentations"/>
+        <NamedIndividual IRI="#parameter-learner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptRules"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptRules"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptRules"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptRules"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasParameter"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptRules"/>
+        <NamedIndividual IRI="#parameter-learner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptTheoryOfPlanning"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptTheoryOfPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptTheoryOfPlanning"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptTheoryOfPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasParameter"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptTheoryOfPlanning"/>
+        <NamedIndividual IRI="#parameter-learner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptUncert"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptUncert"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptUncert"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptUncert"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasParameter"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptUncert"/>
+        <NamedIndividual IRI="#parameter-learner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <NamedIndividual IRI="#method-achieveTakeCourse"/>
+        <NamedIndividual IRI="#methodFlow-takeCourse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasParameter"/>
+        <NamedIndividual IRI="#method-achieveTakeCourse"/>
+        <NamedIndividual IRI="#parameter-course"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasParameter"/>
+        <NamedIndividual IRI="#method-achieveTakeCourse"/>
+        <NamedIndividual IRI="#parameter-learner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasObject"/>
+        <NamedIndividual IRI="#method-letAchieveTakeCourseAI"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasObject"/>
+        <NamedIndividual IRI="#method-letAchieveTakeCourseAI"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#learner-leticia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meSpecializationOf"/>
+        <NamedIndividual IRI="#method-letAchieveTakeCourseAI"/>
+        <NamedIndividual IRI="#method-achieveTakeCourse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptAdvancedPlanning"/>
+        <NamedIndividual IRI="#operator-doNothing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptAdvancedPlanning"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedAdvancedPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptBlindSearch"/>
+        <NamedIndividual IRI="#operator-doNothing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptBlindSearch"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedBlindSearch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptGameTheory"/>
+        <NamedIndividual IRI="#operator-doNothing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptGameTheory"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedGameTheory"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptHeuristics"/>
+        <NamedIndividual IRI="#operator-doNothing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptHeuristics"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedHeuristics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptLogic"/>
+        <NamedIndividual IRI="#operator-doNothing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptLogic"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedLogic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptLogicProgramming"/>
+        <NamedIndividual IRI="#operator-doNothing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptLogicProgramming"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedLogicProgramming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptPrinciples"/>
+        <NamedIndividual IRI="#operator-doNothing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptPrinciples"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedPrinciples"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptProbRepr"/>
+        <NamedIndividual IRI="#operator-doNothing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptProbRepr"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedProbRepr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptProblemSolving"/>
+        <NamedIndividual IRI="#operator-doNothing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptProblemSolving"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedProblemSolving"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptRepresentations"/>
+        <NamedIndividual IRI="#operator-doNothing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptRepresentations"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedRepresentations"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptRules"/>
+        <NamedIndividual IRI="#operator-doNothing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptRules"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedRules"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptTheoryOfPlanning"/>
+        <NamedIndividual IRI="#operator-doNothing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptTheoryOfPlanning"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedTheoryOfPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptUncert"/>
+        <NamedIndividual IRI="#operator-doNothing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-dummyStudyConceptUncert"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedUncert"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptAdvancedPlanning"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptLogic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptAdvancedPlanning"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptPrinciples"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptAdvancedPlanning"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptProblemSolving"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptAdvancedPlanning"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptUncert"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptAdvancedPlanning"/>
+        <NamedIndividual IRI="#operator-learnConceptAdvancedPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptAdvancedPlanning"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedAdvancedPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptBlindSearch"/>
+        <NamedIndividual IRI="#operator-learnConceptBlindSearch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptBlindSearch"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedBlindSearch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptGameTheory"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptBlindSearch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptGameTheory"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptHeuristics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptGameTheory"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptPrinciples"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptGameTheory"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptProbRepr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptGameTheory"/>
+        <NamedIndividual IRI="#operator-learnConceptGameTheory"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptGameTheory"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedGameTheory"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptHeuristics"/>
+        <NamedIndividual IRI="#operator-learnConceptHeuristics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptHeuristics"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedHeuristics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptLogic"/>
+        <NamedIndividual IRI="#operator-learnConceptLogic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptLogic"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedLogic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptLogicProgramming"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptPrinciples"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptLogicProgramming"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptRules"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptLogicProgramming"/>
+        <NamedIndividual IRI="#operator-learnConceptLogicProgramming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptLogicProgramming"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedLogicProgramming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptPrinciples"/>
+        <NamedIndividual IRI="#operator-learnConceptPrinciples"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptPrinciples"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedPrinciples"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptProbRepr"/>
+        <NamedIndividual IRI="#operator-learnConceptProbRepr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptProbRepr"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedProbRepr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptProblemSolving"/>
+        <NamedIndividual IRI="#operator-learnConceptProblemSolving"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptProblemSolving"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedProblemSolving"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptRepresentations"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptBlindSearch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptRepresentations"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptProbRepr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptRepresentations"/>
+        <NamedIndividual IRI="#operator-learnConceptRepresentations"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptRepresentations"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedRepresentations"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptRules"/>
+        <NamedIndividual IRI="#operator-learnConceptRules"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptRules"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedRules"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptTheoryOfPlanning"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptBlindSearch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptTheoryOfPlanning"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptHeuristics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptTheoryOfPlanning"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptLogic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptTheoryOfPlanning"/>
+        <NamedIndividual IRI="#operator-learnConceptTheoryOfPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptTheoryOfPlanning"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedTheoryOfPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptUncert"/>
+        <NamedIndividual IRI="#operator-learnConceptUncert"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-studyConceptUncert"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedUncert"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-takeCourse"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptAdvancedPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-takeCourse"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptBlindSearch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-takeCourse"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptGameTheory"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-takeCourse"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptHeuristics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-takeCourse"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptLogic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-takeCourse"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptLogicProgramming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-takeCourse"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptPrinciples"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-takeCourse"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptProbRepr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-takeCourse"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptProblemSolving"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-takeCourse"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptRepresentations"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-takeCourse"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptRules"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-takeCourse"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptTheoryOfPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <NamedIndividual IRI="#methodFlow-takeCourse"/>
+        <NamedIndividual IRI="#method-achieveStudyConceptUncert"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <NamedIndividual IRI="#methodFlow-takeCourse"/>
+        <NamedIndividual IRI="#operator-finishCourse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <NamedIndividual IRI="#methodFlow-takeCourse"/>
+        <NamedIndividual IRI="#predicate-takes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasPrecondition"/>
+        <NamedIndividual IRI="#operator-finishCourse"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedAdvancedPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasPrecondition"/>
+        <NamedIndividual IRI="#operator-finishCourse"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedBlindSearch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasPrecondition"/>
+        <NamedIndividual IRI="#operator-finishCourse"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedGameTheory"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasPrecondition"/>
+        <NamedIndividual IRI="#operator-finishCourse"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedHeuristics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasPrecondition"/>
+        <NamedIndividual IRI="#operator-finishCourse"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedLogic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasPrecondition"/>
+        <NamedIndividual IRI="#operator-finishCourse"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedLogicProgramming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasPrecondition"/>
+        <NamedIndividual IRI="#operator-finishCourse"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedPrinciples"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasPrecondition"/>
+        <NamedIndividual IRI="#operator-finishCourse"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedProbRepr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasPrecondition"/>
+        <NamedIndividual IRI="#operator-finishCourse"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedProblemSolving"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasPrecondition"/>
+        <NamedIndividual IRI="#operator-finishCourse"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedRepresentations"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasPrecondition"/>
+        <NamedIndividual IRI="#operator-finishCourse"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedRules"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasPrecondition"/>
+        <NamedIndividual IRI="#operator-finishCourse"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedTheoryOfPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasPrecondition"/>
+        <NamedIndividual IRI="#operator-finishCourse"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedUncert"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#addsPredicate"/>
+        <NamedIndividual IRI="#operator-learnConcept"/>
+        <NamedIndividual IRI="#predicate-conceptStudied"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasParameter"/>
+        <NamedIndividual IRI="#operator-learnConcept"/>
+        <NamedIndividual IRI="#parameter-concept"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasPrecondition"/>
+        <NamedIndividual IRI="#operator-learnConcept"/>
+        <NamedIndividual IRI="#predicate-notConceptStudied"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasObject"/>
+        <NamedIndividual IRI="#operator-learnConceptAdvancedPlanning"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-advancedPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opSpecializationOf"/>
+        <NamedIndividual IRI="#operator-learnConceptAdvancedPlanning"/>
+        <NamedIndividual IRI="#operator-learnConcept"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasObject"/>
+        <NamedIndividual IRI="#operator-learnConceptBlindSearch"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-blindSearch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opSpecializationOf"/>
+        <NamedIndividual IRI="#operator-learnConceptBlindSearch"/>
+        <NamedIndividual IRI="#operator-learnConcept"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasObject"/>
+        <NamedIndividual IRI="#operator-learnConceptGameTheory"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-gameTheory"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opSpecializationOf"/>
+        <NamedIndividual IRI="#operator-learnConceptGameTheory"/>
+        <NamedIndividual IRI="#operator-learnConcept"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasObject"/>
+        <NamedIndividual IRI="#operator-learnConceptHeuristics"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-heuristics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opSpecializationOf"/>
+        <NamedIndividual IRI="#operator-learnConceptHeuristics"/>
+        <NamedIndividual IRI="#operator-learnConcept"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasObject"/>
+        <NamedIndividual IRI="#operator-learnConceptLogic"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-logic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opSpecializationOf"/>
+        <NamedIndividual IRI="#operator-learnConceptLogic"/>
+        <NamedIndividual IRI="#operator-learnConcept"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasObject"/>
+        <NamedIndividual IRI="#operator-learnConceptLogicProgramming"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-logicProgramming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opSpecializationOf"/>
+        <NamedIndividual IRI="#operator-learnConceptLogicProgramming"/>
+        <NamedIndividual IRI="#operator-learnConcept"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasObject"/>
+        <NamedIndividual IRI="#operator-learnConceptPrinciples"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-principles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opSpecializationOf"/>
+        <NamedIndividual IRI="#operator-learnConceptPrinciples"/>
+        <NamedIndividual IRI="#operator-learnConcept"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasObject"/>
+        <NamedIndividual IRI="#operator-learnConceptProbRepr"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-probRepr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opSpecializationOf"/>
+        <NamedIndividual IRI="#operator-learnConceptProbRepr"/>
+        <NamedIndividual IRI="#operator-learnConcept"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasObject"/>
+        <NamedIndividual IRI="#operator-learnConceptProblemSolving"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-problemSolving"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opSpecializationOf"/>
+        <NamedIndividual IRI="#operator-learnConceptProblemSolving"/>
+        <NamedIndividual IRI="#operator-learnConcept"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasObject"/>
+        <NamedIndividual IRI="#operator-learnConceptRepresentations"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-representations"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opSpecializationOf"/>
+        <NamedIndividual IRI="#operator-learnConceptRepresentations"/>
+        <NamedIndividual IRI="#operator-learnConcept"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasObject"/>
+        <NamedIndividual IRI="#operator-learnConceptRules"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-rules"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opSpecializationOf"/>
+        <NamedIndividual IRI="#operator-learnConceptRules"/>
+        <NamedIndividual IRI="#operator-learnConcept"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasObject"/>
+        <NamedIndividual IRI="#operator-learnConceptTheoryOfPlanning"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-theoryOfPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opSpecializationOf"/>
+        <NamedIndividual IRI="#operator-learnConceptTheoryOfPlanning"/>
+        <NamedIndividual IRI="#operator-learnConcept"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasObject"/>
+        <NamedIndividual IRI="#operator-learnConceptUncert"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-uncert"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opSpecializationOf"/>
+        <NamedIndividual IRI="#operator-learnConceptUncert"/>
+        <NamedIndividual IRI="#operator-learnConcept"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasParameter"/>
+        <NamedIndividual IRI="#predicate-conceptStudied"/>
+        <NamedIndividual IRI="#parameter-concept"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasObject"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedAdvancedPlanning"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-advancedPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prSpecializationOf"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedAdvancedPlanning"/>
+        <NamedIndividual IRI="#predicate-conceptStudied"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasObject"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedBlindSearch"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-blindSearch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prSpecializationOf"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedBlindSearch"/>
+        <NamedIndividual IRI="#predicate-conceptStudied"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasObject"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedGameTheory"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-gameTheory"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prSpecializationOf"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedGameTheory"/>
+        <NamedIndividual IRI="#predicate-conceptStudied"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasObject"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedHeuristics"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-heuristics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prSpecializationOf"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedHeuristics"/>
+        <NamedIndividual IRI="#predicate-conceptStudied"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasObject"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedLogic"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-logic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prSpecializationOf"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedLogic"/>
+        <NamedIndividual IRI="#predicate-conceptStudied"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasObject"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedLogicProgramming"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-logicProgramming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prSpecializationOf"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedLogicProgramming"/>
+        <NamedIndividual IRI="#predicate-conceptStudied"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasObject"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedPrinciples"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-principles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prSpecializationOf"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedPrinciples"/>
+        <NamedIndividual IRI="#predicate-conceptStudied"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasObject"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedProbRepr"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-probRepr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prSpecializationOf"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedProbRepr"/>
+        <NamedIndividual IRI="#predicate-conceptStudied"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasObject"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedProblemSolving"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-problemSolving"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prSpecializationOf"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedProblemSolving"/>
+        <NamedIndividual IRI="#predicate-conceptStudied"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasObject"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedRepresentations"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-representations"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prSpecializationOf"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedRepresentations"/>
+        <NamedIndividual IRI="#predicate-conceptStudied"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasObject"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedRules"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-rules"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prSpecializationOf"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedRules"/>
+        <NamedIndividual IRI="#predicate-conceptStudied"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasObject"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedTheoryOfPlanning"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-theoryOfPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prSpecializationOf"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedTheoryOfPlanning"/>
+        <NamedIndividual IRI="#predicate-conceptStudied"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasObject"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedUncert"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#concept-uncert"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prSpecializationOf"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedUncert"/>
+        <NamedIndividual IRI="#predicate-conceptStudied"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasObject"/>
+        <NamedIndividual IRI="#predicate-letTakesAI"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasObject"/>
+        <NamedIndividual IRI="#predicate-letTakesAI"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai#learner-leticia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prSpecializationOf"/>
+        <NamedIndividual IRI="#predicate-letTakesAI"/>
+        <NamedIndividual IRI="#predicate-takes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#negativeOf"/>
+        <NamedIndividual IRI="#predicate-notConceptStudied"/>
+        <NamedIndividual IRI="#predicate-conceptStudied"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#negativeOf"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedAdvancedPlanning"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedAdvancedPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#negativeOf"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedBlindSearch"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedBlindSearch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#negativeOf"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedGameTheory"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedGameTheory"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#negativeOf"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedHeuristics"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedHeuristics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#negativeOf"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedLogic"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedLogic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#negativeOf"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedLogicProgramming"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedLogicProgramming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#negativeOf"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedPrinciples"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedPrinciples"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#negativeOf"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedProbRepr"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedProbRepr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#negativeOf"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedProblemSolving"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedProblemSolving"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#negativeOf"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedRepresentations"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedRepresentations"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#negativeOf"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedRules"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedRules"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#negativeOf"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedTheoryOfPlanning"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedTheoryOfPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#negativeOf"/>
+        <NamedIndividual IRI="#predicate-notConceptStudiedUncert"/>
+        <NamedIndividual IRI="#predicate-conceptStudiedUncert"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasParameter"/>
+        <NamedIndividual IRI="#predicate-takes"/>
+        <NamedIndividual IRI="#parameter-course"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasParameter"/>
+        <NamedIndividual IRI="#predicate-takes"/>
+        <NamedIndividual IRI="#parameter-learner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasDomain"/>
+        <NamedIndividual IRI="#problemDefinition"/>
+        <NamedIndividual IRI="#domainDefinition"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasGoal"/>
+        <NamedIndividual IRI="#problemDefinition"/>
+        <NamedIndividual IRI="#goal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasInitialState"/>
+        <NamedIndividual IRI="#problemDefinition"/>
+        <NamedIndividual IRI="#initialState"/>
+    </ObjectPropertyAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#domainDefinition</IRI>
+        <Literal>domainDefinition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#goal</IRI>
+        <Literal>goal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#initialState</IRI>
+        <Literal>initialState</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#method-achieveStudyConceptAdvancedPlanning</IRI>
+        <Literal>Parameters: [learner]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#method-achieveStudyConceptAdvancedPlanning</IRI>
+        <Literal>achieveStudyConceptAdvancedPlanning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#method-achieveStudyConceptBlindSearch</IRI>
+        <Literal>Parameters: [learner]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#method-achieveStudyConceptBlindSearch</IRI>
+        <Literal>achieveStudyConceptBlindSearch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#method-achieveStudyConceptGameTheory</IRI>
+        <Literal>Parameters: [learner]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#method-achieveStudyConceptGameTheory</IRI>
+        <Literal>achieveStudyConceptGameTheory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#method-achieveStudyConceptHeuristics</IRI>
+        <Literal>Parameters: [learner]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#method-achieveStudyConceptHeuristics</IRI>
+        <Literal>achieveStudyConceptHeuristics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#method-achieveStudyConceptLogic</IRI>
+        <Literal>Parameters: [learner]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#method-achieveStudyConceptLogic</IRI>
+        <Literal>achieveStudyConceptLogic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#method-achieveStudyConceptLogicProgramming</IRI>
+        <Literal>Parameters: [learner]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#method-achieveStudyConceptLogicProgramming</IRI>
+        <Literal>achieveStudyConceptLogicProgramming</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#method-achieveStudyConceptPrinciples</IRI>
+        <Literal>Parameters: [learner]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#method-achieveStudyConceptPrinciples</IRI>
+        <Literal>achieveStudyConceptPrinciples</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#method-achieveStudyConceptProbRepr</IRI>
+        <Literal>Parameters: [learner]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#method-achieveStudyConceptProbRepr</IRI>
+        <Literal>achieveStudyConceptProbRepr</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#method-achieveStudyConceptProblemSolving</IRI>
+        <Literal>Parameters: [learner]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#method-achieveStudyConceptProblemSolving</IRI>
+        <Literal>achieveStudyConceptProblemSolving</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#method-achieveStudyConceptRepresentations</IRI>
+        <Literal>Parameters: [learner]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#method-achieveStudyConceptRepresentations</IRI>
+        <Literal>achieveStudyConceptRepresentations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#method-achieveStudyConceptRules</IRI>
+        <Literal>Parameters: [learner]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#method-achieveStudyConceptRules</IRI>
+        <Literal>achieveStudyConceptRules</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#method-achieveStudyConceptTheoryOfPlanning</IRI>
+        <Literal>Parameters: [learner]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#method-achieveStudyConceptTheoryOfPlanning</IRI>
+        <Literal>achieveStudyConceptTheoryOfPlanning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#method-achieveStudyConceptUncert</IRI>
+        <Literal>Parameters: [learner]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#method-achieveStudyConceptUncert</IRI>
+        <Literal>achieveStudyConceptUncert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#method-achieveTakeCourse</IRI>
+        <Literal>Parameters: [learner;course]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#method-achieveTakeCourse</IRI>
+        <Literal>achieveTakeCourse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#method-letAchieveTakeCourseAI</IRI>
+        <Literal>Objects: [leticia;artificialIntelligence]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#method-letAchieveTakeCourseAI</IRI>
+        <Literal>letAchieveTakeCourseAI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-dummyStudyConceptAdvancedPlanning</IRI>
+        <Literal>dummyStudyConceptAdvancedPlanning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-dummyStudyConceptBlindSearch</IRI>
+        <Literal>dummyStudyConceptBlindSearch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-dummyStudyConceptGameTheory</IRI>
+        <Literal>dummyStudyConceptGameTheory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-dummyStudyConceptHeuristics</IRI>
+        <Literal>dummyStudyConceptHeuristics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-dummyStudyConceptLogic</IRI>
+        <Literal>dummyStudyConceptLogic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-dummyStudyConceptLogicProgramming</IRI>
+        <Literal>dummyStudyConceptLogicProgramming</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-dummyStudyConceptPrinciples</IRI>
+        <Literal>dummyStudyConceptPrinciples</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-dummyStudyConceptProbRepr</IRI>
+        <Literal>dummyStudyConceptProbRepr</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-dummyStudyConceptProblemSolving</IRI>
+        <Literal>dummyStudyConceptProblemSolving</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-dummyStudyConceptRepresentations</IRI>
+        <Literal>dummyStudyConceptRepresentations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-dummyStudyConceptRules</IRI>
+        <Literal>dummyStudyConceptRules</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-dummyStudyConceptTheoryOfPlanning</IRI>
+        <Literal>dummyStudyConceptTheoryOfPlanning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-dummyStudyConceptUncert</IRI>
+        <Literal>dummyStudyConceptUncert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-studyConceptAdvancedPlanning</IRI>
+        <Literal>studyConceptAdvancedPlanning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-studyConceptBlindSearch</IRI>
+        <Literal>studyConceptBlindSearch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-studyConceptGameTheory</IRI>
+        <Literal>studyConceptGameTheory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-studyConceptHeuristics</IRI>
+        <Literal>studyConceptHeuristics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-studyConceptLogic</IRI>
+        <Literal>studyConceptLogic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-studyConceptLogicProgramming</IRI>
+        <Literal>studyConceptLogicProgramming</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-studyConceptPrinciples</IRI>
+        <Literal>studyConceptPrinciples</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-studyConceptProbRepr</IRI>
+        <Literal>studyConceptProbRepr</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-studyConceptProblemSolving</IRI>
+        <Literal>studyConceptProblemSolving</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-studyConceptRepresentations</IRI>
+        <Literal>studyConceptRepresentations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-studyConceptRules</IRI>
+        <Literal>studyConceptRules</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-studyConceptTheoryOfPlanning</IRI>
+        <Literal>studyConceptTheoryOfPlanning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-studyConceptUncert</IRI>
+        <Literal>studyConceptUncert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#methodFlow-takeCourse</IRI>
+        <Literal>takeCourse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#operator-doNothing</IRI>
+        <Literal>doNothing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#operator-finishCourse</IRI>
+        <Literal>finishCourse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#operator-learnConcept</IRI>
+        <Literal>Parameters: [concept]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#operator-learnConcept</IRI>
+        <Literal>learnConcept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#operator-learnConceptAdvancedPlanning</IRI>
+        <Literal>Objects: [advancedPlanning]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#operator-learnConceptAdvancedPlanning</IRI>
+        <Literal>learnConceptAdvancedPlanning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#operator-learnConceptBlindSearch</IRI>
+        <Literal>Objects: [blindSearch]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#operator-learnConceptBlindSearch</IRI>
+        <Literal>learnConceptBlindSearch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#operator-learnConceptGameTheory</IRI>
+        <Literal>Objects: [gameTheory]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#operator-learnConceptGameTheory</IRI>
+        <Literal>learnConceptGameTheory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#operator-learnConceptHeuristics</IRI>
+        <Literal>Objects: [heuristics]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#operator-learnConceptHeuristics</IRI>
+        <Literal>learnConceptHeuristics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#operator-learnConceptLogic</IRI>
+        <Literal>Objects: [logic]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#operator-learnConceptLogic</IRI>
+        <Literal>learnConceptLogic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#operator-learnConceptLogicProgramming</IRI>
+        <Literal>Objects: [logicProgramming]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#operator-learnConceptLogicProgramming</IRI>
+        <Literal>learnConceptLogicProgramming</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#operator-learnConceptPrinciples</IRI>
+        <Literal>Objects: [principles]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#operator-learnConceptPrinciples</IRI>
+        <Literal>learnConceptPrinciples</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#operator-learnConceptProbRepr</IRI>
+        <Literal>Objects: [probRepr]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#operator-learnConceptProbRepr</IRI>
+        <Literal>learnConceptProbRepr</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#operator-learnConceptProblemSolving</IRI>
+        <Literal>Objects: [problemSolving]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#operator-learnConceptProblemSolving</IRI>
+        <Literal>learnConceptProblemSolving</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#operator-learnConceptRepresentations</IRI>
+        <Literal>Objects: [representations]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#operator-learnConceptRepresentations</IRI>
+        <Literal>learnConceptRepresentations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#operator-learnConceptRules</IRI>
+        <Literal>Objects: [rules]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#operator-learnConceptRules</IRI>
+        <Literal>learnConceptRules</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#operator-learnConceptTheoryOfPlanning</IRI>
+        <Literal>Objects: [theoryOfPlanning]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#operator-learnConceptTheoryOfPlanning</IRI>
+        <Literal>learnConceptTheoryOfPlanning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#operator-learnConceptUncert</IRI>
+        <Literal>Objects: [uncert]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#operator-learnConceptUncert</IRI>
+        <Literal>learnConceptUncert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#operator-startCourse</IRI>
+        <Literal>startCourse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#parameter-concept</IRI>
+        <Literal>concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#parameter-course</IRI>
+        <Literal>course</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#parameter-learner</IRI>
+        <Literal>learner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#predicate-conceptStudied</IRI>
+        <Literal>Parameters: [concept]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-conceptStudied</IRI>
+        <Literal>conceptStudied</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#predicate-conceptStudiedAdvancedPlanning</IRI>
+        <Literal>Objects: [advancedPlanning]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-conceptStudiedAdvancedPlanning</IRI>
+        <Literal>conceptStudiedAdvancedPlanning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#predicate-conceptStudiedBlindSearch</IRI>
+        <Literal>Objects: [blindSearch]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-conceptStudiedBlindSearch</IRI>
+        <Literal>conceptStudiedBlindSearch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#predicate-conceptStudiedGameTheory</IRI>
+        <Literal>Objects: [gameTheory]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-conceptStudiedGameTheory</IRI>
+        <Literal>conceptStudiedGameTheory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#predicate-conceptStudiedHeuristics</IRI>
+        <Literal>Objects: [heuristics]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-conceptStudiedHeuristics</IRI>
+        <Literal>conceptStudiedHeuristics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#predicate-conceptStudiedLogic</IRI>
+        <Literal>Objects: [logic]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-conceptStudiedLogic</IRI>
+        <Literal>conceptStudiedLogic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#predicate-conceptStudiedLogicProgramming</IRI>
+        <Literal>Objects: [logicProgramming]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-conceptStudiedLogicProgramming</IRI>
+        <Literal>conceptStudiedLogicProgramming</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#predicate-conceptStudiedPrinciples</IRI>
+        <Literal>Objects: [principles]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-conceptStudiedPrinciples</IRI>
+        <Literal>conceptStudiedPrinciples</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#predicate-conceptStudiedProbRepr</IRI>
+        <Literal>Objects: [probRepr]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-conceptStudiedProbRepr</IRI>
+        <Literal>conceptStudiedProbRepr</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#predicate-conceptStudiedProblemSolving</IRI>
+        <Literal>Objects: [problemSolving]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-conceptStudiedProblemSolving</IRI>
+        <Literal>conceptStudiedProblemSolving</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#predicate-conceptStudiedRepresentations</IRI>
+        <Literal>Objects: [representations]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-conceptStudiedRepresentations</IRI>
+        <Literal>conceptStudiedRepresentations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#predicate-conceptStudiedRules</IRI>
+        <Literal>Objects: [rules]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-conceptStudiedRules</IRI>
+        <Literal>conceptStudiedRules</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#predicate-conceptStudiedTheoryOfPlanning</IRI>
+        <Literal>Objects: [theoryOfPlanning]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-conceptStudiedTheoryOfPlanning</IRI>
+        <Literal>conceptStudiedTheoryOfPlanning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#predicate-conceptStudiedUncert</IRI>
+        <Literal>Objects: [uncert]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-conceptStudiedUncert</IRI>
+        <Literal>conceptStudiedUncert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#predicate-letTakesAI</IRI>
+        <Literal>Objects: [leticia;artificialIntelligence]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-letTakesAI</IRI>
+        <Literal>letTakesAI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-notConceptStudied</IRI>
+        <Literal>notConceptStudied</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-notConceptStudiedAdvancedPlanning</IRI>
+        <Literal>notConceptStudiedAdvancedPlanning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-notConceptStudiedBlindSearch</IRI>
+        <Literal>notConceptStudiedBlindSearch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-notConceptStudiedGameTheory</IRI>
+        <Literal>notConceptStudiedGameTheory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-notConceptStudiedHeuristics</IRI>
+        <Literal>notConceptStudiedHeuristics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-notConceptStudiedLogic</IRI>
+        <Literal>notConceptStudiedLogic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-notConceptStudiedLogicProgramming</IRI>
+        <Literal>notConceptStudiedLogicProgramming</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-notConceptStudiedPrinciples</IRI>
+        <Literal>notConceptStudiedPrinciples</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-notConceptStudiedProbRepr</IRI>
+        <Literal>notConceptStudiedProbRepr</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-notConceptStudiedProblemSolving</IRI>
+        <Literal>notConceptStudiedProblemSolving</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-notConceptStudiedRepresentations</IRI>
+        <Literal>notConceptStudiedRepresentations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-notConceptStudiedRules</IRI>
+        <Literal>notConceptStudiedRules</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-notConceptStudiedTheoryOfPlanning</IRI>
+        <Literal>notConceptStudiedTheoryOfPlanning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-notConceptStudiedUncert</IRI>
+        <Literal>notConceptStudiedUncert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#predicate-takes</IRI>
+        <Literal>Parameters: [learner;course]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predicate-takes</IRI>
+        <Literal>takes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#problemDefinition</IRI>
+        <Literal>problemDefinition</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

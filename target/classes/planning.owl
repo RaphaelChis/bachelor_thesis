@@ -1,0 +1,314 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/rapha/ontologies/2023/2/planning"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/rapha/ontologies/2023/2/planning">
+    <Prefix name="" IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/planning"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Axiom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#DomainDefinition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Goal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#InitialState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Parameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#ProblemDefinition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#addsPredicate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#consistsOfMethod"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#deletesPredicate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasDomain"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasGoal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasInitialState"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasMethod"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasOperator"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPredicate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasObject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasParameter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meSpecializationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#negativeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasObject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasParameter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasPrecondition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opSpecializationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasObject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasParameter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prSpecializationOf"/>
+    </Declaration>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Axiom"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#DomainDefinition"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Goal"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#InitialState"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Parameter"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#ProblemDefinition"/>
+    </DisjointClasses>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#addsPredicate"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#consistsOfMethod"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Goal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#deletesPredicate"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasDomain"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#ProblemDefinition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasGoal"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#ProblemDefinition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasInitialState"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#ProblemDefinition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasMethod"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#DomainDefinition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasOperator"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#DomainDefinition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPredicate"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#InitialState"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasObject"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasParameter"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meSpecializationOf"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#negativeOf"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasObject"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasParameter"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasPrecondition"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opSpecializationOf"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasObject"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasParameter"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prSpecializationOf"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#addsPredicate"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#consistsOfMethod"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#deletesPredicate"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasDomain"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#DomainDefinition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasFlow"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#MethodFlow"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasGoal"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Goal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasInitialState"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#InitialState"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasMethod"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasOperator"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionMe"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPostconditionOp"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#hasPredicate"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meHasParameter"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Parameter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#meSpecializationOf"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Method"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#mfHasPrecondition"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#negativeOf"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasParameter"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Parameter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opHasPrecondition"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#opSpecializationOf"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Operator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prHasParameter"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Parameter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#prSpecializationOf"/>
+        <Class IRI="http://www.semanticweb.org/rapha/ontologies/2023/2/untitled-ontology-36#Predicate"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

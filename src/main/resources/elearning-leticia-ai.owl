@@ -1,0 +1,1641 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai">
+    <Prefix name="" IRI="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Ability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AcquiredNecessaryCompetence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Competence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Concept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Course"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Learner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LearningStyle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResourceDescription"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#abBelongsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#abHasObjective"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ccBelongsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ccHasObjective"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#consistsOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#csHasObjective"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#describes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAbility"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConcept"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDescription"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRequisite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasResource"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#helpsToAchieveAbility"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#helpsToAchieveKnowledge"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#includedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDescribedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isObjectiveOfCs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isObjectiveOfLn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSupportedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#lnHasLearningStyle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#lnHasObjective"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nextConcept"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#oppositeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#previousConcept"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#rdHasLearningStyle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#similarTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supports"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#takes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#abilityName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#activeReflective"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#conceptName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#courseDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#courseName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#createdBy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dateOfBirth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#difficultLevel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fullName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasKeyword"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#language"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#levelOfStudy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#objective"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#performance"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#phoneNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sensingIntuitive"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sequentialGlobal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sex"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#visualVerbal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#workStatus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#yearOfStudy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#competence-advancedPlanning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#competence-blindSearch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#competence-gameTheory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#competence-heuristics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#competence-logic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#competence-logicProgramming"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#competence-principles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#competence-probRepr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#competence-problemSolving"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#competence-representations"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#competence-rules"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#competence-theoryOfPlanning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#competence-uncert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concept-advancedPlanning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concept-blindSearch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concept-gameTheory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concept-heuristics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concept-logic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concept-logicProgramming"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concept-principles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concept-probRepr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concept-problemSolving"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concept-representations"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concept-rules"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concept-theoryOfPlanning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concept-uncert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#learner-leticia"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#AcquiredNecessaryCompetence"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Competence"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isObjectiveOfCs"/>
+                <Class IRI="#Course"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isObjectiveOfLn"/>
+                <Class IRI="#Learner"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#AcquiredNecessaryCompetence"/>
+        <Class IRI="#Competence"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Competence"/>
+        <NamedIndividual IRI="#competence-advancedPlanning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Competence"/>
+        <NamedIndividual IRI="#competence-blindSearch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Competence"/>
+        <NamedIndividual IRI="#competence-gameTheory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Competence"/>
+        <NamedIndividual IRI="#competence-heuristics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Competence"/>
+        <NamedIndividual IRI="#competence-logic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Competence"/>
+        <NamedIndividual IRI="#competence-logicProgramming"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Competence"/>
+        <NamedIndividual IRI="#competence-principles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Competence"/>
+        <NamedIndividual IRI="#competence-probRepr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Competence"/>
+        <NamedIndividual IRI="#competence-problemSolving"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Competence"/>
+        <NamedIndividual IRI="#competence-representations"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Competence"/>
+        <NamedIndividual IRI="#competence-rules"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Competence"/>
+        <NamedIndividual IRI="#competence-theoryOfPlanning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Competence"/>
+        <NamedIndividual IRI="#competence-uncert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concept"/>
+        <NamedIndividual IRI="#concept-advancedPlanning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concept"/>
+        <NamedIndividual IRI="#concept-blindSearch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concept"/>
+        <NamedIndividual IRI="#concept-gameTheory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concept"/>
+        <NamedIndividual IRI="#concept-heuristics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concept"/>
+        <NamedIndividual IRI="#concept-logic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concept"/>
+        <NamedIndividual IRI="#concept-logicProgramming"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concept"/>
+        <NamedIndividual IRI="#concept-principles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concept"/>
+        <NamedIndividual IRI="#concept-probRepr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concept"/>
+        <NamedIndividual IRI="#concept-problemSolving"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concept"/>
+        <NamedIndividual IRI="#concept-representations"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concept"/>
+        <NamedIndividual IRI="#concept-rules"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concept"/>
+        <NamedIndividual IRI="#concept-theoryOfPlanning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concept"/>
+        <NamedIndividual IRI="#concept-uncert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Learner"/>
+        <NamedIndividual IRI="#learner-leticia"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isObjectiveOfCs"/>
+        <NamedIndividual IRI="#competence-advancedPlanning"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isObjectiveOfCs"/>
+        <NamedIndividual IRI="#competence-blindSearch"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isObjectiveOfCs"/>
+        <NamedIndividual IRI="#competence-gameTheory"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isObjectiveOfCs"/>
+        <NamedIndividual IRI="#competence-heuristics"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isObjectiveOfCs"/>
+        <NamedIndividual IRI="#competence-logic"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isObjectiveOfCs"/>
+        <NamedIndividual IRI="#competence-logicProgramming"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isObjectiveOfCs"/>
+        <NamedIndividual IRI="#competence-principles"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isObjectiveOfLn"/>
+        <NamedIndividual IRI="#competence-principles"/>
+        <NamedIndividual IRI="#learner-leticia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isObjectiveOfCs"/>
+        <NamedIndividual IRI="#competence-probRepr"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isObjectiveOfCs"/>
+        <NamedIndividual IRI="#competence-problemSolving"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isObjectiveOfLn"/>
+        <NamedIndividual IRI="#competence-problemSolving"/>
+        <NamedIndividual IRI="#learner-leticia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isObjectiveOfCs"/>
+        <NamedIndividual IRI="#competence-representations"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isObjectiveOfCs"/>
+        <NamedIndividual IRI="#competence-rules"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isObjectiveOfCs"/>
+        <NamedIndividual IRI="#competence-theoryOfPlanning"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isObjectiveOfCs"/>
+        <NamedIndividual IRI="#competence-uncert"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccBelongsTo"/>
+        <NamedIndividual IRI="#concept-advancedPlanning"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccHasObjective"/>
+        <NamedIndividual IRI="#concept-advancedPlanning"/>
+        <NamedIndividual IRI="#competence-advancedPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRequisite"/>
+        <NamedIndividual IRI="#concept-advancedPlanning"/>
+        <NamedIndividual IRI="#concept-logic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRequisite"/>
+        <NamedIndividual IRI="#concept-advancedPlanning"/>
+        <NamedIndividual IRI="#concept-principles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRequisite"/>
+        <NamedIndividual IRI="#concept-advancedPlanning"/>
+        <NamedIndividual IRI="#concept-problemSolving"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRequisite"/>
+        <NamedIndividual IRI="#concept-advancedPlanning"/>
+        <NamedIndividual IRI="#concept-uncert"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccBelongsTo"/>
+        <NamedIndividual IRI="#concept-blindSearch"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccHasObjective"/>
+        <NamedIndividual IRI="#concept-blindSearch"/>
+        <NamedIndividual IRI="#competence-blindSearch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+        <NamedIndividual IRI="#concept-blindSearch"/>
+        <NamedIndividual IRI="#concept-gameTheory"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+        <NamedIndividual IRI="#concept-blindSearch"/>
+        <NamedIndividual IRI="#concept-representations"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+        <NamedIndividual IRI="#concept-blindSearch"/>
+        <NamedIndividual IRI="#concept-theoryOfPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccBelongsTo"/>
+        <NamedIndividual IRI="#concept-gameTheory"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccHasObjective"/>
+        <NamedIndividual IRI="#concept-gameTheory"/>
+        <NamedIndividual IRI="#competence-gameTheory"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRequisite"/>
+        <NamedIndividual IRI="#concept-gameTheory"/>
+        <NamedIndividual IRI="#concept-blindSearch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRequisite"/>
+        <NamedIndividual IRI="#concept-gameTheory"/>
+        <NamedIndividual IRI="#concept-heuristics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRequisite"/>
+        <NamedIndividual IRI="#concept-gameTheory"/>
+        <NamedIndividual IRI="#concept-principles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRequisite"/>
+        <NamedIndividual IRI="#concept-gameTheory"/>
+        <NamedIndividual IRI="#concept-probRepr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccBelongsTo"/>
+        <NamedIndividual IRI="#concept-heuristics"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccHasObjective"/>
+        <NamedIndividual IRI="#concept-heuristics"/>
+        <NamedIndividual IRI="#competence-heuristics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+        <NamedIndividual IRI="#concept-heuristics"/>
+        <NamedIndividual IRI="#concept-gameTheory"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+        <NamedIndividual IRI="#concept-heuristics"/>
+        <NamedIndividual IRI="#concept-theoryOfPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccBelongsTo"/>
+        <NamedIndividual IRI="#concept-logic"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccHasObjective"/>
+        <NamedIndividual IRI="#concept-logic"/>
+        <NamedIndividual IRI="#competence-logic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+        <NamedIndividual IRI="#concept-logic"/>
+        <NamedIndividual IRI="#concept-advancedPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+        <NamedIndividual IRI="#concept-logic"/>
+        <NamedIndividual IRI="#concept-theoryOfPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccBelongsTo"/>
+        <NamedIndividual IRI="#concept-logicProgramming"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccHasObjective"/>
+        <NamedIndividual IRI="#concept-logicProgramming"/>
+        <NamedIndividual IRI="#competence-logicProgramming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRequisite"/>
+        <NamedIndividual IRI="#concept-logicProgramming"/>
+        <NamedIndividual IRI="#concept-principles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRequisite"/>
+        <NamedIndividual IRI="#concept-logicProgramming"/>
+        <NamedIndividual IRI="#concept-rules"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccBelongsTo"/>
+        <NamedIndividual IRI="#concept-principles"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccHasObjective"/>
+        <NamedIndividual IRI="#concept-principles"/>
+        <NamedIndividual IRI="#competence-principles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+        <NamedIndividual IRI="#concept-principles"/>
+        <NamedIndividual IRI="#concept-advancedPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+        <NamedIndividual IRI="#concept-principles"/>
+        <NamedIndividual IRI="#concept-gameTheory"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+        <NamedIndividual IRI="#concept-principles"/>
+        <NamedIndividual IRI="#concept-logicProgramming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccBelongsTo"/>
+        <NamedIndividual IRI="#concept-probRepr"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccHasObjective"/>
+        <NamedIndividual IRI="#concept-probRepr"/>
+        <NamedIndividual IRI="#competence-probRepr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+        <NamedIndividual IRI="#concept-probRepr"/>
+        <NamedIndividual IRI="#concept-gameTheory"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+        <NamedIndividual IRI="#concept-probRepr"/>
+        <NamedIndividual IRI="#concept-representations"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccBelongsTo"/>
+        <NamedIndividual IRI="#concept-problemSolving"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccHasObjective"/>
+        <NamedIndividual IRI="#concept-problemSolving"/>
+        <NamedIndividual IRI="#competence-problemSolving"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+        <NamedIndividual IRI="#concept-problemSolving"/>
+        <NamedIndividual IRI="#concept-advancedPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccBelongsTo"/>
+        <NamedIndividual IRI="#concept-representations"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccHasObjective"/>
+        <NamedIndividual IRI="#concept-representations"/>
+        <NamedIndividual IRI="#competence-representations"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRequisite"/>
+        <NamedIndividual IRI="#concept-representations"/>
+        <NamedIndividual IRI="#concept-blindSearch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRequisite"/>
+        <NamedIndividual IRI="#concept-representations"/>
+        <NamedIndividual IRI="#concept-probRepr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccBelongsTo"/>
+        <NamedIndividual IRI="#concept-rules"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccHasObjective"/>
+        <NamedIndividual IRI="#concept-rules"/>
+        <NamedIndividual IRI="#competence-rules"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+        <NamedIndividual IRI="#concept-rules"/>
+        <NamedIndividual IRI="#concept-logicProgramming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccBelongsTo"/>
+        <NamedIndividual IRI="#concept-theoryOfPlanning"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccHasObjective"/>
+        <NamedIndividual IRI="#concept-theoryOfPlanning"/>
+        <NamedIndividual IRI="#competence-theoryOfPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRequisite"/>
+        <NamedIndividual IRI="#concept-theoryOfPlanning"/>
+        <NamedIndividual IRI="#concept-blindSearch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRequisite"/>
+        <NamedIndividual IRI="#concept-theoryOfPlanning"/>
+        <NamedIndividual IRI="#concept-heuristics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRequisite"/>
+        <NamedIndividual IRI="#concept-theoryOfPlanning"/>
+        <NamedIndividual IRI="#concept-logic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccBelongsTo"/>
+        <NamedIndividual IRI="#concept-uncert"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccHasObjective"/>
+        <NamedIndividual IRI="#concept-uncert"/>
+        <NamedIndividual IRI="#competence-uncert"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+        <NamedIndividual IRI="#concept-uncert"/>
+        <NamedIndividual IRI="#concept-advancedPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#csHasObjective"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#competence-advancedPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#csHasObjective"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#competence-blindSearch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#csHasObjective"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#competence-gameTheory"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#csHasObjective"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#competence-heuristics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#csHasObjective"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#competence-logic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#csHasObjective"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#competence-logicProgramming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#csHasObjective"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#competence-principles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#csHasObjective"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#competence-probRepr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#csHasObjective"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#competence-problemSolving"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#csHasObjective"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#competence-representations"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#csHasObjective"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#competence-rules"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#csHasObjective"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#competence-theoryOfPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#csHasObjective"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#competence-uncert"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConcept"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#concept-advancedPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConcept"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#concept-blindSearch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConcept"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#concept-gameTheory"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConcept"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#concept-heuristics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConcept"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#concept-logic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConcept"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#concept-logicProgramming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConcept"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#concept-principles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConcept"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#concept-probRepr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConcept"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#concept-problemSolving"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConcept"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#concept-representations"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConcept"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#concept-rules"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConcept"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#concept-theoryOfPlanning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConcept"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <NamedIndividual IRI="#concept-uncert"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#lnHasObjective"/>
+        <NamedIndividual IRI="#learner-leticia"/>
+        <NamedIndividual IRI="#competence-principles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#lnHasObjective"/>
+        <NamedIndividual IRI="#learner-leticia"/>
+        <NamedIndividual IRI="#competence-problemSolving"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#takes"/>
+        <NamedIndividual IRI="#learner-leticia"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#objective"/>
+        <NamedIndividual IRI="#competence-advancedPlanning"/>
+        <Literal>advancedPlanning</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#objective"/>
+        <NamedIndividual IRI="#competence-blindSearch"/>
+        <Literal>blindSearch</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#objective"/>
+        <NamedIndividual IRI="#competence-gameTheory"/>
+        <Literal>gameTheory</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#objective"/>
+        <NamedIndividual IRI="#competence-heuristics"/>
+        <Literal>heuristics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#objective"/>
+        <NamedIndividual IRI="#competence-logic"/>
+        <Literal>logic</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#objective"/>
+        <NamedIndividual IRI="#competence-logicProgramming"/>
+        <Literal>logicProgramming</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#objective"/>
+        <NamedIndividual IRI="#competence-principles"/>
+        <Literal>principles</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#objective"/>
+        <NamedIndividual IRI="#competence-probRepr"/>
+        <Literal>probRepr</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#objective"/>
+        <NamedIndividual IRI="#competence-problemSolving"/>
+        <Literal>problemSolving</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#objective"/>
+        <NamedIndividual IRI="#competence-representations"/>
+        <Literal>representations</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#objective"/>
+        <NamedIndividual IRI="#competence-rules"/>
+        <Literal>rules</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#objective"/>
+        <NamedIndividual IRI="#competence-theoryOfPlanning"/>
+        <Literal>theoryOfPlanning</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#objective"/>
+        <NamedIndividual IRI="#competence-uncert"/>
+        <Literal>uncert</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#conceptName"/>
+        <NamedIndividual IRI="#concept-advancedPlanning"/>
+        <Literal>advancedPlanning</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#conceptName"/>
+        <NamedIndividual IRI="#concept-blindSearch"/>
+        <Literal>blindSearch</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#conceptName"/>
+        <NamedIndividual IRI="#concept-gameTheory"/>
+        <Literal>gameTheory</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#conceptName"/>
+        <NamedIndividual IRI="#concept-heuristics"/>
+        <Literal>heuristics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#conceptName"/>
+        <NamedIndividual IRI="#concept-logic"/>
+        <Literal>logic</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#conceptName"/>
+        <NamedIndividual IRI="#concept-logicProgramming"/>
+        <Literal>logicProgramming</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#conceptName"/>
+        <NamedIndividual IRI="#concept-principles"/>
+        <Literal>principles</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#conceptName"/>
+        <NamedIndividual IRI="#concept-probRepr"/>
+        <Literal>probRepr</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#conceptName"/>
+        <NamedIndividual IRI="#concept-problemSolving"/>
+        <Literal>problemSolving</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#conceptName"/>
+        <NamedIndividual IRI="#concept-representations"/>
+        <Literal>representations</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#conceptName"/>
+        <NamedIndividual IRI="#concept-rules"/>
+        <Literal>rules</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#conceptName"/>
+        <NamedIndividual IRI="#concept-theoryOfPlanning"/>
+        <Literal>theoryOfPlanning</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#conceptName"/>
+        <NamedIndividual IRI="#concept-uncert"/>
+        <Literal>uncert</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#courseName"/>
+        <NamedIndividual IRI="#course-artificialIntelligence"/>
+        <Literal>artificialIntelligence</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fullName"/>
+        <NamedIndividual IRI="#learner-leticia"/>
+        <Literal>leticia</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#abBelongsTo"/>
+        <ObjectProperty IRI="#hasAbility"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ccBelongsTo"/>
+        <ObjectProperty IRI="#hasConcept"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#csHasObjective"/>
+        <ObjectProperty IRI="#isObjectiveOfCs"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#describes"/>
+        <ObjectProperty IRI="#isDescribedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasResource"/>
+        <ObjectProperty IRI="#includedIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isObjectiveOfLn"/>
+        <ObjectProperty IRI="#lnHasObjective"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isSupportedBy"/>
+        <ObjectProperty IRI="#supports"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#abBelongsTo"/>
+        <Class IRI="#Ability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#abHasObjective"/>
+        <Class IRI="#Ability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ccBelongsTo"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ccHasObjective"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#consistsOf"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#csHasObjective"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#describes"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAbility"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasConcept"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDescription"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRequisite"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasResource"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#helpsToAchieveAbility"/>
+        <Class IRI="#ResourceDescription"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#helpsToAchieveKnowledge"/>
+        <Class IRI="#ResourceDescription"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#includedIn"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isDescribedBy"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isObjectiveOfCs"/>
+        <Class IRI="#Competence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isObjectiveOfLn"/>
+        <Class IRI="#Competence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSupportedBy"/>
+        <Class IRI="#Ability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#lnHasLearningStyle"/>
+        <Class IRI="#Learner"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#lnHasObjective"/>
+        <Class IRI="#Learner"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#nextConcept"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#oppositeOf"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#previousConcept"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#rdHasLearningStyle"/>
+        <Class IRI="#ResourceDescription"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#similarTo"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#supports"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#takes"/>
+        <Class IRI="#Learner"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#abBelongsTo"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#abHasObjective"/>
+        <Class IRI="#Competence"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ccBelongsTo"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ccHasObjective"/>
+        <Class IRI="#Competence"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#consistsOf"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#csHasObjective"/>
+        <Class IRI="#Competence"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#describes"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAbility"/>
+        <Class IRI="#Ability"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasConcept"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDescription"/>
+        <Class IRI="#ResourceDescription"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRequisite"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasResource"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#helpsToAchieveAbility"/>
+        <Class IRI="#Ability"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#helpsToAchieveKnowledge"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#includedIn"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isDescribedBy"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isObjectiveOfCs"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isObjectiveOfLn"/>
+        <Class IRI="#Learner"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSupportedBy"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#lnHasLearningStyle"/>
+        <Class IRI="#LearningStyle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#lnHasObjective"/>
+        <Class IRI="#Competence"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#nextConcept"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#oppositeOf"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#previousConcept"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#rdHasLearningStyle"/>
+        <Class IRI="#LearningStyle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#similarTo"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#supports"/>
+        <Class IRI="#Ability"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#takes"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#abilityName"/>
+        <Class IRI="#Ability"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#activeReflective"/>
+        <Class IRI="#LearningStyle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#conceptName"/>
+        <Class IRI="#Concept"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#courseDescription"/>
+        <Class IRI="#Course"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#courseName"/>
+        <Class IRI="#Course"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#createdBy"/>
+        <Class IRI="#ResourceDescription"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dateOfBirth"/>
+        <Class IRI="#Learner"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#difficultLevel"/>
+        <Class IRI="#ResourceDescription"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#email"/>
+        <Class IRI="#Learner"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fullName"/>
+        <Class IRI="#Learner"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasKeyword"/>
+        <Class IRI="#ResourceDescription"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#language"/>
+        <Class IRI="#ResourceDescription"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#levelOfStudy"/>
+        <Class IRI="#Learner"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#objective"/>
+        <Class IRI="#Competence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#performance"/>
+        <Class IRI="#Learner"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#phoneNumber"/>
+        <Class IRI="#Learner"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sensingIntuitive"/>
+        <Class IRI="#LearningStyle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sequentialGlobal"/>
+        <Class IRI="#LearningStyle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sex"/>
+        <Class IRI="#Learner"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#type"/>
+        <Class IRI="#ResourceDescription"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#visualVerbal"/>
+        <Class IRI="#LearningStyle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#workStatus"/>
+        <Class IRI="#Learner"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#yearOfStudy"/>
+        <Class IRI="#Learner"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#abilityName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#activeReflective"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#conceptName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#courseDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#courseName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#createdBy"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dateOfBirth"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#difficultLevel"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#email"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fullName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasKeyword"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#language"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#levelOfStudy"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#objective"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#performance"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#phoneNumber"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sensingIntuitive"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sequentialGlobal"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sex"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#visualVerbal"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#workStatus"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#yearOfStudy"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#competence-advancedPlanning</IRI>
+        <Literal>advancedPlanningComp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#competence-blindSearch</IRI>
+        <Literal>blindSearchComp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#competence-gameTheory</IRI>
+        <Literal>gameTheoryComp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#competence-heuristics</IRI>
+        <Literal>heuristicsComp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#competence-logic</IRI>
+        <Literal>logicComp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#competence-logicProgramming</IRI>
+        <Literal>logicProgrammingComp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#competence-principles</IRI>
+        <Literal>principlesComp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#competence-probRepr</IRI>
+        <Literal>probReprComp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#competence-problemSolving</IRI>
+        <Literal>problemSolvingComp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#competence-representations</IRI>
+        <Literal>representationsComp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#competence-rules</IRI>
+        <Literal>rulesComp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#competence-theoryOfPlanning</IRI>
+        <Literal>theoryOfPlanningComp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#competence-uncert</IRI>
+        <Literal>uncertComp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#concept-advancedPlanning</IRI>
+        <Literal>advancedPlanningConc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#concept-blindSearch</IRI>
+        <Literal>blindSearchConc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#concept-gameTheory</IRI>
+        <Literal>gameTheoryConc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#concept-heuristics</IRI>
+        <Literal>heuristicsConc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#concept-logic</IRI>
+        <Literal>logicConc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#concept-logicProgramming</IRI>
+        <Literal>logicProgrammingConc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#concept-principles</IRI>
+        <Literal>principlesConc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#concept-probRepr</IRI>
+        <Literal>probReprConc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#concept-problemSolving</IRI>
+        <Literal>problemSolvingConc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#concept-representations</IRI>
+        <Literal>representationsConc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#concept-rules</IRI>
+        <Literal>rulesConc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#concept-theoryOfPlanning</IRI>
+        <Literal>theoryOfPlanningConc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#concept-uncert</IRI>
+        <Literal>uncertConc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#course-artificialIntelligence</IRI>
+        <Literal>artificialIntelligence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#learner-leticia</IRI>
+        <Literal>leticia</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,921 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/rapha/ontologies/2022/10/elearning-leticia-ds"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/rapha/ontologies/2022/10/elearning-leticia-ds">
+    <Prefix name="" IRI="http://www.semanticweb.org/rapha/ontologies/2022/10/elearning-leticia-ds"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Ability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AcquiredNecessaryCompetence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Competence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Concept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Course"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Learner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LearningStyle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResourceDescription"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#abBelongsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#abHasObjective"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ccBelongsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ccHasObjective"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#consistsOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#csHasObjective"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#describes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAbility"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConcept"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDescription"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRequisite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasResource"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#helpsToAchieveAbility"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#helpsToAchieveKnowledge"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#includedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDescribedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isObjectiveOfCs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isObjectiveOfLn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSupportedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#lnHasLearningStyle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#lnHasObjective"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nextConcept"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#oppositeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#previousConcept"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#rdHasLearningStyle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#similarTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supports"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#takes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#abilityName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#activeReflective"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#conceptName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#courseDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#courseName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#createdBy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dateOfBirth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#difficultLevel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fullName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasKeyword"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#language"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#levelOfStudy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#objective"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#performance"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#phoneNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sensingIntuitive"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sequentialGlobal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sex"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#visualVerbal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#workStatus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#yearOfStudy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#competence-array"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#competence-list"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#competence-tree"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concept-array"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concept-list"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concept-tree"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#course-dataStructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#learner-leticia"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#AcquiredNecessaryCompetence"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Competence"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isObjectiveOfCs"/>
+                <Class IRI="#Course"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isObjectiveOfLn"/>
+                <Class IRI="#Learner"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#AcquiredNecessaryCompetence"/>
+        <Class IRI="#Competence"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Competence"/>
+        <NamedIndividual IRI="#competence-array"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Competence"/>
+        <NamedIndividual IRI="#competence-list"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Competence"/>
+        <NamedIndividual IRI="#competence-tree"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concept"/>
+        <NamedIndividual IRI="#concept-array"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concept"/>
+        <NamedIndividual IRI="#concept-list"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concept"/>
+        <NamedIndividual IRI="#concept-tree"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#course-dataStructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Learner"/>
+        <NamedIndividual IRI="#learner-leticia"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isObjectiveOfCs"/>
+        <NamedIndividual IRI="#competence-array"/>
+        <NamedIndividual IRI="#course-dataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isObjectiveOfLn"/>
+        <NamedIndividual IRI="#competence-array"/>
+        <NamedIndividual IRI="#learner-leticia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isObjectiveOfCs"/>
+        <NamedIndividual IRI="#competence-list"/>
+        <NamedIndividual IRI="#course-dataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isObjectiveOfCs"/>
+        <NamedIndividual IRI="#competence-tree"/>
+        <NamedIndividual IRI="#course-dataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccBelongsTo"/>
+        <NamedIndividual IRI="#concept-array"/>
+        <NamedIndividual IRI="#course-dataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccHasObjective"/>
+        <NamedIndividual IRI="#concept-array"/>
+        <NamedIndividual IRI="#competence-array"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+        <NamedIndividual IRI="#concept-array"/>
+        <NamedIndividual IRI="#concept-list"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+        <NamedIndividual IRI="#concept-array"/>
+        <NamedIndividual IRI="#concept-tree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccBelongsTo"/>
+        <NamedIndividual IRI="#concept-list"/>
+        <NamedIndividual IRI="#course-dataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccHasObjective"/>
+        <NamedIndividual IRI="#concept-list"/>
+        <NamedIndividual IRI="#competence-list"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRequisite"/>
+        <NamedIndividual IRI="#concept-list"/>
+        <NamedIndividual IRI="#concept-array"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+        <NamedIndividual IRI="#concept-list"/>
+        <NamedIndividual IRI="#concept-tree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccBelongsTo"/>
+        <NamedIndividual IRI="#concept-tree"/>
+        <NamedIndividual IRI="#course-dataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ccHasObjective"/>
+        <NamedIndividual IRI="#concept-tree"/>
+        <NamedIndividual IRI="#competence-tree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRequisite"/>
+        <NamedIndividual IRI="#concept-tree"/>
+        <NamedIndividual IRI="#concept-array"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRequisite"/>
+        <NamedIndividual IRI="#concept-tree"/>
+        <NamedIndividual IRI="#concept-list"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#csHasObjective"/>
+        <NamedIndividual IRI="#course-dataStructure"/>
+        <NamedIndividual IRI="#competence-array"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#csHasObjective"/>
+        <NamedIndividual IRI="#course-dataStructure"/>
+        <NamedIndividual IRI="#competence-list"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#csHasObjective"/>
+        <NamedIndividual IRI="#course-dataStructure"/>
+        <NamedIndividual IRI="#competence-tree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConcept"/>
+        <NamedIndividual IRI="#course-dataStructure"/>
+        <NamedIndividual IRI="#concept-array"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConcept"/>
+        <NamedIndividual IRI="#course-dataStructure"/>
+        <NamedIndividual IRI="#concept-list"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConcept"/>
+        <NamedIndividual IRI="#course-dataStructure"/>
+        <NamedIndividual IRI="#concept-tree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#lnHasObjective"/>
+        <NamedIndividual IRI="#learner-leticia"/>
+        <NamedIndividual IRI="#competence-array"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#takes"/>
+        <NamedIndividual IRI="#learner-leticia"/>
+        <NamedIndividual IRI="#course-dataStructure"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#objective"/>
+        <NamedIndividual IRI="#competence-array"/>
+        <Literal>array</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#objective"/>
+        <NamedIndividual IRI="#competence-list"/>
+        <Literal>list</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#objective"/>
+        <NamedIndividual IRI="#competence-tree"/>
+        <Literal>tree</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#conceptName"/>
+        <NamedIndividual IRI="#concept-array"/>
+        <Literal>array</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#conceptName"/>
+        <NamedIndividual IRI="#concept-list"/>
+        <Literal>list</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#conceptName"/>
+        <NamedIndividual IRI="#concept-tree"/>
+        <Literal>tree</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#courseName"/>
+        <NamedIndividual IRI="#course-dataStructure"/>
+        <Literal>dataStructure</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fullName"/>
+        <NamedIndividual IRI="#learner-leticia"/>
+        <Literal>leticia</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#abBelongsTo"/>
+        <ObjectProperty IRI="#hasAbility"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ccBelongsTo"/>
+        <ObjectProperty IRI="#hasConcept"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#csHasObjective"/>
+        <ObjectProperty IRI="#isObjectiveOfCs"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#describes"/>
+        <ObjectProperty IRI="#isDescribedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasResource"/>
+        <ObjectProperty IRI="#includedIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isObjectiveOfLn"/>
+        <ObjectProperty IRI="#lnHasObjective"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isSupportedBy"/>
+        <ObjectProperty IRI="#supports"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#abBelongsTo"/>
+        <Class IRI="#Ability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#abHasObjective"/>
+        <Class IRI="#Ability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ccBelongsTo"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ccHasObjective"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#consistsOf"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#csHasObjective"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#describes"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAbility"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasConcept"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDescription"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRequisite"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasResource"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#helpsToAchieveAbility"/>
+        <Class IRI="#ResourceDescription"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#helpsToAchieveKnowledge"/>
+        <Class IRI="#ResourceDescription"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#includedIn"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isDescribedBy"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isObjectiveOfCs"/>
+        <Class IRI="#Competence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isObjectiveOfLn"/>
+        <Class IRI="#Competence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSupportedBy"/>
+        <Class IRI="#Ability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#lnHasLearningStyle"/>
+        <Class IRI="#Learner"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#lnHasObjective"/>
+        <Class IRI="#Learner"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#nextConcept"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#oppositeOf"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#previousConcept"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#rdHasLearningStyle"/>
+        <Class IRI="#ResourceDescription"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#similarTo"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#supports"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#takes"/>
+        <Class IRI="#Learner"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#abBelongsTo"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#abHasObjective"/>
+        <Class IRI="#Competence"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ccBelongsTo"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ccHasObjective"/>
+        <Class IRI="#Competence"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#consistsOf"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#csHasObjective"/>
+        <Class IRI="#Competence"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#describes"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAbility"/>
+        <Class IRI="#Ability"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasConcept"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDescription"/>
+        <Class IRI="#ResourceDescription"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRequisite"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasResource"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#helpsToAchieveAbility"/>
+        <Class IRI="#Ability"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#helpsToAchieveKnowledge"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#includedIn"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isDescribedBy"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isObjectiveOfCs"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isObjectiveOfLn"/>
+        <Class IRI="#Learner"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSupportedBy"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#lnHasLearningStyle"/>
+        <Class IRI="#LearningStyle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#lnHasObjective"/>
+        <Class IRI="#Competence"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#nextConcept"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#oppositeOf"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#previousConcept"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#rdHasLearningStyle"/>
+        <Class IRI="#LearningStyle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#similarTo"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#supports"/>
+        <Class IRI="#Ability"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#takes"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#abilityName"/>
+        <Class IRI="#Ability"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#activeReflective"/>
+        <Class IRI="#LearningStyle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#conceptName"/>
+        <Class IRI="#Concept"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#courseDescription"/>
+        <Class IRI="#Course"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#courseName"/>
+        <Class IRI="#Course"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#createdBy"/>
+        <Class IRI="#ResourceDescription"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dateOfBirth"/>
+        <Class IRI="#Learner"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#difficultLevel"/>
+        <Class IRI="#ResourceDescription"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#email"/>
+        <Class IRI="#Learner"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fullName"/>
+        <Class IRI="#Learner"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasKeyword"/>
+        <Class IRI="#ResourceDescription"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#language"/>
+        <Class IRI="#ResourceDescription"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#levelOfStudy"/>
+        <Class IRI="#Learner"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#objective"/>
+        <Class IRI="#Competence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#performance"/>
+        <Class IRI="#Learner"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#phoneNumber"/>
+        <Class IRI="#Learner"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sensingIntuitive"/>
+        <Class IRI="#LearningStyle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sequentialGlobal"/>
+        <Class IRI="#LearningStyle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sex"/>
+        <Class IRI="#Learner"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#type"/>
+        <Class IRI="#ResourceDescription"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#visualVerbal"/>
+        <Class IRI="#LearningStyle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#workStatus"/>
+        <Class IRI="#Learner"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#yearOfStudy"/>
+        <Class IRI="#Learner"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#abilityName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#activeReflective"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#conceptName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#courseDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#courseName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#createdBy"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dateOfBirth"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#difficultLevel"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#email"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fullName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasKeyword"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#language"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#levelOfStudy"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#objective"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#performance"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#phoneNumber"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sensingIntuitive"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sequentialGlobal"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sex"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#visualVerbal"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#workStatus"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#yearOfStudy"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#competence-array</IRI>
+        <Literal>arrayComp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#competence-list</IRI>
+        <Literal>listComp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#competence-tree</IRI>
+        <Literal>treeComp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#concept-array</IRI>
+        <Literal>arrayConc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#concept-list</IRI>
+        <Literal>listConc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#concept-tree</IRI>
+        <Literal>treeConc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#course-dataStructure</IRI>
+        <Literal>dataStructure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#learner-leticia</IRI>
+        <Literal>leticia</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

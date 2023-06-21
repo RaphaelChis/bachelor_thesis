@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1687323618563" name="http://www.semanticweb.org/rapha/ontologies/2022/10/elearning-john-ds" uri="elearning-john-ds.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1687323618563" name="http://www.semanticweb.org/rapha/ontologies/2022/10/elearning-leonard-ds" uri="elearning-leonard-ds.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1687323618563" name="http://www.semanticweb.org/rapha/ontologies/2022/10/elearning-leticia-ds" uri="elearning-leticia-ds.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1687323618563" name="http://www.semanticweb.org/rapha/ontologies/2023/2/config-john-ds" uri="config-john-ds.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1687323618563" name="http://www.semanticweb.org/rapha/ontologies/2023/2/config-leonard-ds" uri="config-leonard-ds.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1687323618563" name="http://www.semanticweb.org/rapha/ontologies/2023/2/config-leticia-ds" uri="config-leticia-ds.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1687323618563" name="http://www.semanticweb.org/rapha/ontologies/2023/2/planning" uri="planning.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1687323618563" name="http://www.semanticweb.org/rapha/ontologies/2023/3/config-rec-leticia-ds" uri="config-rec-leticia-ds.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1687323618563" name="http://www.semanticweb.org/rapha/ontologies/2023/4/config-leticia-ai" uri="config-leticia-ai.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1687323618563" name="http://www.semanticweb.org/rapha/ontologies/2023/4/config-rec-leticia-ai" uri="config-rec-leticia-ai.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1687323618563" name="http://www.semanticweb.org/rapha/ontologies/2023/4/elearning-leticia-ai" uri="elearning-leticia-ai.owl"/>
+    </group>
+</catalog>
